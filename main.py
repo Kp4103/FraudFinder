@@ -23,7 +23,7 @@ def preprocess_data(df):
     return df[columns]
 
 # Streamlit UI
-st.title("Ethereum Fraud Detection")
+st.title("FraudFinder: Your Ethereum is your Ethereum.")
 
 # Hardcoded paths to models
 model_paths = {
