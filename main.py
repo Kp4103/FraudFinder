@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, classification_report
 import joblib
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Load and preprocess data
 def preprocess_data(df):
